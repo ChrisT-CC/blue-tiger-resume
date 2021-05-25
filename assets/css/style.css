@@ -10,3 +10,14 @@ body {
     font-family: Markazi Text, sans-serif;
     font-weight: 500;
 }
+
+/* Header */
+
+
+
+/* Hero image */
+#hero-image {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/blue-tiger-hero-image.jpg") no-repeat center center;
+}
