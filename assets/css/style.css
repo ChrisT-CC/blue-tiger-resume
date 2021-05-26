@@ -6,8 +6,9 @@
     border: none;
 }
 
-a, a:hover {
-    text-decoration: none; 
+a,
+a:hover {
+    text-decoration: none;
 }
 
 ul {
@@ -23,11 +24,14 @@ body {
 
 header {
     color: #c7c7c7;
-    position: absolute;
-    z-index: 1;
+    position: absolute;     /* Position the heading to the top of the page */
+    z-index: 1;             /* Position heading on top of hero-image */
+    width: 100%;            /* Change dimension of header element to screen width */
+    line-height: 75px;      /* Vertical alignment */
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Markazi Text", sans-serif;
     font-weight: 500;
     font-size: 280%;
@@ -38,11 +42,45 @@ h1, h2 {
     margin-left: 30px;
 }
 
-#logo a{
+#logo a {
     color: #c7c7c7;
 }
 
+/* Navigation links */
+
+#menu {
+    float: right;
+    font-size: 210%;
+    margin-right: 30px;
+    vertical-align: bottom;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #c7c7c7;
+    margin-left: 5px;
+}
+
+#menu li a:hover {
+    color: red;
+}
+
+#burger {
+    width: 75px;
+    height: 75px;
+    vertical-align: bottom;
+}
+
+#burger img {
+    height: 100%;
+
+}
+
 /* Hero image */
+
 #hero-image {
     position: relative;
     height: 100vh;
