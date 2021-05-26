@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 #cover-text {
-    /* background-color: red; */
+    /* background-color: red; */        /* Testing position and dimensions of element */
     color: #c7c7c7;
 
     position: absolute;
