@@ -57,13 +57,13 @@ h1, h2 {
     display: inline-block;
 }
 
-#menu li a {
-    color: #c7c7c7;
+#menu li a {                /* Change font to links - narrow, bold, lowercase style */
+    color: #c7c7c7; 
     margin-left: 5px;
 }
 
 #menu li a:hover {
-    color: red;
+    color: red;           /* Modify colour - check color wheel */
 }
 
 #burger {
@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 #cover-text {
-    /* background-color: red;        Testing position and dimensions of element */
+    /* background-color: red; */      /* Testing position and dimensions of element */
     color: #c7c7c7;
 
     position: absolute;
@@ -177,7 +177,23 @@ h1, h2 {
 
 /* Social media icons */
 
+.social-icons {
+    position: fixed;
+    bottom: 75px;
+    left: 1%;
+}
 
+.social-icons li {
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.social-icons li a {
+    color: #c7c7c7;
+}
 
 /* Up arrow */
 
