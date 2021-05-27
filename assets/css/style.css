@@ -185,9 +185,12 @@ h1, h2 {
 
 .social-icons li {
     padding: 2px;
-    margin: 2px;
+    margin: 3px;
+    height: 18px;
+    width: 18px;
     text-align: center;
-    background-color: blue;
+    /* background-color: blue; */    /* Change to appropriate colour */
+    background-color: rgba(117, 176, 216, 0.3);
     border-radius: 50%;
 }
 
@@ -195,15 +198,39 @@ h1, h2 {
     color: #c7c7c7;
 }
 
+.social-icons li a:hover {
+    color: rgb(23, 115, 234);
+}
+
 /* Up arrow */
 
+.up-arrow {
+    position: fixed;
+    bottom: 60px;
+    right: 2%;
+    height: 40px;
+    width: 40px;
+    font-size: 200%;
+    text-align: center;
+    /* background-color: blue;   */  /* Change to appropriate colour */
+    background-color: rgba(117, 176, 216, 0.3);
+    border-radius: 50%;
+}
 
+.up-arrow a{
+    color: #c7c7c7;
+}
+
+.up-arrow a:hover {
+    /* color: rgba(117, 176, 216, 0.3); */
+    color: rgb(23, 115, 234);
+}
 
 /* Copyright */
 
 .copyright {
-    position: fixed;
-    bottom: 0%;
+    /* position: fixed; */            /* In case I want the copyright visible all the time */
+    /* bottom: 0%; */
     background-color: black;        /* Modify colour - when page ready choose o colour that fits better */
     color: #c7c7c7;
     text-align: center;
