@@ -15,7 +15,7 @@ ul {
 }
 
 body {
-    font-family: Markazi Text, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 #cover-text {
-    /* background-color: red; */        /* Testing position and dimensions of element */
+    /* background-color: red;        Testing position and dimensions of element */
     color: #c7c7c7;
 
     position: absolute;
@@ -110,7 +110,8 @@ h1, h2 {
 }
 
 #cover-text h2 span {
-    color: blue;
+    color: blue;        /* Test colour */
+    /* color: rgb(117, 176, 216); */        /* Preferred colour */
 }
 
 #cover-text h3 {
@@ -162,7 +163,7 @@ h1, h2 {
     float: right;
     height: 40px;
     width: 100px;
-    background-color: blue;
+    background-color: blue;     /* Test colour - add more style */
     top: 40px;
     right: 40px;
     border-radius: 25px;
@@ -170,5 +171,30 @@ h1, h2 {
 
 #link-home a {
     color: #c7c7c7;
+}
 
+/* Footer */
+
+/* Social media icons */
+
+
+
+/* Up arrow */
+
+
+
+/* Copyright */
+
+.copyright {
+    position: fixed;
+    bottom: 0%;
+    background-color: black;        /* Modify colour - when page ready choose o colour that fits better */
+    color: #c7c7c7;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.copyright p {
+    padding: 15px;
 }
