@@ -173,6 +173,16 @@ h1, h2 {
     color: #c7c7c7;
 }
 
+/* About section */
+
+#about {
+    height: 60vh;
+    background-color: lightblue;
+    background: url(../images/about.png) #75B0D8 no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
 /* Footer */
 
 /* Social media icons */
