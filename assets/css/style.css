@@ -183,6 +183,15 @@ h1, h2 {
     background-position: top right;
 }
 
+#about div {
+    background-color: aqua;     /* Testing position and dimension */
+    width: 40%;
+    position: relative;
+    top: 10vh;
+    left: 50px;
+    padding: 10px;
+}
+
 /* Footer */
 
 /* Social media icons */
@@ -212,7 +221,7 @@ h1, h2 {
     color: rgb(23, 115, 234);
 }
 
-/* Up arrow */
+/* Up arrow link */
 
 .up-arrow {
     position: fixed;
@@ -236,7 +245,7 @@ h1, h2 {
     color: rgb(23, 115, 234);
 }
 
-/* Copyright */
+/* Copyright section */
 
 .copyright {
     /* position: fixed; */            /* In case I want the copyright visible all the time */
