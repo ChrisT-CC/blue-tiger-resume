@@ -17,6 +17,7 @@ ul {
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: #c7c7c7;
 }
 
 /* Heading and logo */
@@ -184,12 +185,29 @@ h1, h2 {
 }
 
 #about div {
-    background-color: aqua;     /* Testing position and dimension */
+    background-color: rgb(39, 58, 88);     /* Testing position and dimension */
     width: 40%;
     position: relative;
     top: 10vh;
     left: 50px;
-    padding: 10px;
+    padding: 15px;
+    border: 5px double #46719c;
+    border-radius: 5px;
+}
+
+#about div span {
+    border: 2px solid #46719c;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+#about div span a {
+    color: #c7c7c7;
+}
+
+#about div span i {
+    margin-left: 20px;
+    font-size: 90%;
 }
 
 /* Footer */
