@@ -224,7 +224,7 @@ h1, h2 {
 }
 
 #skills #skills-content {
-    background-color: red;     /* Test colour */
+    /* background-color: red;     Test colour */
     width: 80%;
     height: 70%;
     /* padding: 10px; */
@@ -233,7 +233,7 @@ h1, h2 {
 }
 
 .skills-container {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     /* position: static; */
     /* box-sizing: border-box; */
     margin: 10px;
@@ -248,7 +248,7 @@ h1, h2 {
     width: 19%;
     /* height: 100%; */
     /* vertical-align: text-bottom; */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /* .skills-name h3 {
@@ -262,54 +262,55 @@ h1, h2 {
     /* float: right; */
     width: 80%;
     height: 20%;
-    background-color: orange;       /* test colour */
+    /* background-color: orange;       test colour */
+    background-color: #c7c7c7;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-1 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 90%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-2 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 80%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-3 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 95%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-4 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 90%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-5 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 85%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-6 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 95%;
     border-radius: 10px;
 }
 
 .skills-container .skills-level-container #skills-level-7 {
-    background-color: red;       /* test colour */
+    background-color: #75B0D8;       /* test colour */
     height: 100%;
     width: 70%;
     border-radius: 10px;
