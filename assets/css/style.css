@@ -336,6 +336,95 @@ h1, h2 {
     border-radius: 50%;
 }
 
+/* Clients section */
+
+#clients {
+    position: relative;
+    height: 80vh;
+    background-color: #47729D;
+}
+
+#clients h2 {
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+#clients-content {
+   /*  background-color: red;     Test colour */
+    width: 80%;
+    height: 70%;
+    position: relative;
+    left: 10%;
+}
+
+#clients-content div {
+    /* position: absolute; */
+   /*  background-color: blue;     Test colour */
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+#amazon {
+    width: 100%;
+    height: 100%;
+    background: url(../images/amazon-logo-gray.png) no-repeat center center;
+    background-size: cover;
+}
+
+#apple {
+    width: 100%;
+    height: 100%;
+    background: url(../images/apple-logo-gray.png) no-repeat center center;
+    background-size: cover;
+}
+
+#facebook {
+    width: 100%;
+    height: 100%;
+    background: url(../images/facebook-logo-gray.png) no-repeat center center;
+    background-size: cover;
+}
+
+#google {
+    width: 100%;
+    height: 100%;
+    background: url(../images/google-logo-gray.png) no-repeat center center;
+    background-size: cover;
+}
+
+#microsoft {
+    width: 100%;
+    height: 100%;
+    background: url(../images/microsoft-logo-gray.png) no-repeat center center;
+    background-size: cover;
+}
+
+#amazon:hover {
+    background: url(../images/amazon-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
+#apple:hover {
+    background: url(../images/apple-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
+#facebook:hover {
+    background: url(../images/facebook-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
+#google:hover {
+    background: url(../images/google-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
+#microsoft:hover {
+    background: url(../images/microsoft-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
 /* Footer */
 
 /* Social media icons */
