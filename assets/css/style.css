@@ -341,7 +341,7 @@ h1, h2 {
 #clients {
     position: relative;
     height: 80vh;
-    background-color: #47729D;
+    background-color: #212f49;
 }
 
 #clients h2 {
@@ -351,6 +351,7 @@ h1, h2 {
 
 #clients-content {
    /*  background-color: red;     Test colour */
+   padding-top: 150px;
     width: 80%;
     height: 70%;
     position: relative;
@@ -359,43 +360,45 @@ h1, h2 {
 
 #clients-content div {
     /* position: absolute; */
-   /*  background-color: blue;     Test colour */
-    width: 250px;
-    height: 250px;
+   /* background-color: blue;      Test colour */
+    margin-left: 20px;
+    width: 256px;
+    height: 128px;
     float: left;
+    box-sizing: border-box;
 }
 
 #amazon {
-    width: 100%;
-    height: 100%;
+    /* width: 50%; */
+    /* height: 100%; */
     background: url(../images/amazon-logo-gray.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #apple {
     width: 100%;
-    height: 100%;
+    height: 50%;
     background: url(../images/apple-logo-gray.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #facebook {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     background: url(../images/facebook-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
 
 #google {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     background: url(../images/google-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
 
 #microsoft {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     background: url(../images/microsoft-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
@@ -407,7 +410,7 @@ h1, h2 {
 
 #apple:hover {
     background: url(../images/apple-logo.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #facebook:hover {
