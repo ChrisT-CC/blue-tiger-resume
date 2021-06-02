@@ -24,6 +24,7 @@ body {
 
 header {
     color: #c7c7c7;
+    display: block;
     position: absolute;     /* Position the heading to the top of the page */
     z-index: 1;             /* Position heading on top of hero-image */
     width: 100%;            /* Change dimension of header element to screen width */
@@ -496,3 +497,12 @@ h1, h2 {
 .copyright p {
     padding: 15px;
 }
+
+/* Contact page */
+
+.form {
+    background-color: lightcoral;
+    height: 100vh;
+}
+
+/* Footer */
