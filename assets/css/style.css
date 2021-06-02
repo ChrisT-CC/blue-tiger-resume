@@ -491,7 +491,7 @@ h1, h2 {
     color: #c7c7c7;
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 5vh;
 }
 
 .copyright p {
@@ -501,8 +501,42 @@ h1, h2 {
 /* Contact page */
 
 .form {
-    background-color: lightcoral;
-    height: 100vh;
+    background-color: #46719c;
+    position: relative;
+    height: 95vh;
+    /* padding: 200px 30px; */
+}
+
+.form-container {
+    background-color: #756ea8;
+    width: 80%;
+    height: 400px;
+    /* max-width: 400px; */
+    position: absolute; 
+    top: 200px;
+    left: 10%;
+    /* padding: 30px; */
+}
+
+.form-container div {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#form-details {
+    background-color: blue;
+    width: 30%;
+    height: 100%;
+}
+
+#form-input {
+    background-color: red;
+    width: 69%;
+    height: 100%;
 }
 
 /* Footer */
