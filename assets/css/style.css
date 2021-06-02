@@ -126,7 +126,7 @@ nav {
 
 #cover-text h2 span {
     /* color: blue;        Test colour */
-    color: rgb(117, 176, 216);         /* Preferred colour */
+    color: #75b0d8;         /* Preferred colour */
 }
 
 #cover-text h3 {
@@ -134,72 +134,18 @@ nav {
     font-weight: normal;
 }
 
-/* Under construction page */
-
-#main-image {
-    height: 100vh;
-    /* width: 100%; */
-    background: url("../images/uc-main-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* #container {
-    position: absolute;
-    background-color: yellow;
-    height: 50%;
-    width: 40%;
-
-    padding: 10px;
-
-    top: 50px;
-    left: 20px;
-} */
-
-#under-construction-sign {
-    position: relative;
-    top: 40px;
-    left: 40px;
-    height: 50%;
-    width: 35%;
-    background: url(../images/uc-sign.png) no-repeat;
-    background-position: center center;
-    background-size: contain;
-    background-color: yellow;
-    border-radius: 20px;
-    /* padding: 0 10px; */
-}
-
-#link-home {
-    text-align: center;
-    font-size: xx-large;
-    /* vertical-align: middle; */
-    position: absolute;
-    float: right;
-    height: 40px;
-    width: 100px;
-    background-color: blue;     /* Test colour - add more style */
-    top: 40px;
-    right: 40px;
-    border-radius: 25px;
-}
-
-#link-home a {
-    color: #c7c7c7;
-}
-
 /* About section */
 
 #about {
     height: 60vh;
     background-color: lightblue;
-    background: url(../images/about.png) #75B0D8 no-repeat;
+    background: url(../images/about.png) #75b0d8 no-repeat;
     background-size: contain;
     background-position: top right;
 }
 
 #about div {
-    background-color: rgb(39, 58, 88);     /* Testing position and dimension */
+    background-color: #273a58;     /* Testing position and dimension */
     width: 40%;
     position: relative;
     top: 10vh;
@@ -213,6 +159,10 @@ nav {
     border: 2px solid #46719c;
     padding: 2px 5px;
     border-radius: 5px;
+}
+
+#about div span:hover {
+    background-color: #47729d;
 }
 
 #about div span a {
@@ -552,4 +502,56 @@ nav {
     height: 100%;
 }
 
-/* Footer */
+/* Under construction page */
+
+#main-image {
+    height: 100vh;
+    /* width: 100%; */
+    background: url("../images/uc-main-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #container {
+    position: absolute;
+    background-color: yellow;
+    height: 50%;
+    width: 40%;
+
+    padding: 10px;
+
+    top: 50px;
+    left: 20px;
+} */
+
+#under-construction-sign {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    height: 50%;
+    width: 35%;
+    background: url(../images/uc-sign.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: yellow;
+    border-radius: 20px;
+    /* padding: 0 10px; */
+}
+
+#link-home {
+    text-align: center;
+    font-size: xx-large;
+    /* vertical-align: middle; */
+    position: absolute;
+    float: right;
+    height: 40px;
+    width: 100px;
+    background-color: blue;     /* Test colour - add more style */
+    top: 40px;
+    right: 40px;
+    border-radius: 25px;
+}
+
+#link-home a {
+    color: #c7c7c7;
+}
