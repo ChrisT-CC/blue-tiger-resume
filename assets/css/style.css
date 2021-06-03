@@ -471,7 +471,7 @@ nav {
 }
 
 .form-container {
-    background-color: #756ea8;
+    /* background-color: #756ea8; */
     width: 80%;
     height: 40vh;
     /* max-width: 400px; */
@@ -482,21 +482,22 @@ nav {
 }
 
 .form-container h2 {
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    height: 20%;
 }
 
 #form-container-wrapper {
     /* display: inline-block; */
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
-    height: 100%;
+    height: 80%;
     /* text-align: center; */
     box-sizing: border-box;
 }
 
 #form-details {
     float: left;
-    background-color: blue;
+    /* background-color: blue; */
     width: 30%;
     height: 100%;
 }
@@ -512,21 +513,80 @@ nav {
     width: 40px;
     text-align: center;
     line-height: 40px;
-    border: 5px solid rgba(117, 176, 216, 0.3);
+    border: 5px solid rgba(199, 199, 199, 0.8);
     border-radius: 50%;
 }
 
 #form-details div p {
-    background-color: black;
+    /* background-color: black;            test colour */
     display: inline;
     font-size: 75%;
 }
 
 #form-input {
     float: right;
-    background-color: red;
+    /* background-color: red;           test colour */
     width: 70%;
     height: 100%;
+}
+
+.text-input-name {
+    font-family: inherit;
+    width: 47%;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 2px;
+}
+
+.text-input-email {
+    font-family: inherit;
+    width: 47%;
+    height: 40px;
+    margin-right: 2%;
+    margin-top: 2%;
+    float: right;
+    border-radius: 2px;
+}
+
+/* .text-input #name {
+    margin: 2.5% 0 2.5% 2.5%;
+} */
+
+.message-input {
+    width: 96%;
+    height: 150px;
+    margin: 2% 2% 0 2%;
+    border-radius: 2px;
+    padding: 10px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.news-letter {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 75%;
+}
+
+.message-button {
+    margin-right: 2%;
+    margin-top: 0.5%;
+    float: right;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-family: inherit;
+    /* font-weight: bold; */
+    color: inherit;
+    background-color: rgba(39, 58, 88, 0.8);
+    border: 5px solid rgba(199, 199, 199, 0.8);
+}
+
+.message-button:hover {
+    background-color: rgba(199, 199, 199, 0.8);
+    border: 5px solid rgba(39, 58, 88, 0.8);
+    color: #273a58;
 }
 
 /* Under construction page */
