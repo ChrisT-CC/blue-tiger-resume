@@ -589,6 +589,14 @@ nav {
     color: #273a58;
 }
 
+/* Experience page */
+
+.experience {
+    background-color: #46719c;
+    position: relative;
+    height: 95vh;
+}
+
 /* Under construction page */
 
 #main-image {
