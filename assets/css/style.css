@@ -594,7 +594,64 @@ nav {
 .experience {
     background-color: #46719c;
     position: relative;
-    height: 95vh;
+    height: 200vh;
+    padding-top: 100px;
+}
+
+.experience h2 {
+    /* position: inherit;
+    top: 100px; */
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* #briefcase {
+    /* background-color: black;        Test colour */
+    /* text-align: center;
+} */
+
+/* #briefcase i {
+    margin-top: 20px;
+    font-size: 200%;
+} */
+
+.timeline {
+    background-color: #273a58;
+    height: 100vh;
+    width: 5px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+}
+
+.timeline i {
+    position: absolute;
+    /* top: 20%; */
+    left: -17.5px;
+    color: #c7c7c7;
+    font-size: 250%;
+    /* border: 1px solid #c7c7c7; */
+    /* margin: 0 auto; */
+}
+
+#job-1 {
+    top: 10%;
+}
+
+#job-2 {
+    top: 20%;
+}
+
+#job-3 {
+    top: 30%;
+}
+
+#job-4 {
+    top: 40%;
+}
+
+#job-5 {
+    top: 50%;
 }
 
 /* Under construction page */
