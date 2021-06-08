@@ -1,4 +1,8 @@
+/* Importing Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Montserrat:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Reset margins, padding, borders, link hover and list style */
 
 * {
     margin: 0;
@@ -14,18 +18,18 @@ ul {
     list-style: none;
 }
 
+/* Main body format */
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    background-color: #46719c;
+    background-color: #46719c;      /* Fallback colour if problems with images */
     color: #c7c7c7;
 }
 
 /* Heading and logo */
 
 header {
-    /* color: #c7c7c7; */
-    /* display: inline-block; */
     position: absolute;     /* Position the heading to the top of the page */
     z-index: 1;             /* Position heading on top of hero-image */
     width: 100%;            /* Change dimension of header element to screen width */
@@ -40,7 +44,6 @@ h1, h2 {
 
 #logo {
     display: inline-block;
-    /* background-color: #46719c;      Test colour */
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -62,7 +65,6 @@ nav {
 }
 
 #menu {
-    /* float: right; */
     margin-right: 30px;
     margin-left: 30px;
     vertical-align: bottom;
@@ -72,13 +74,12 @@ nav {
     display: inline-block;
 }
 
-#menu li a {                /* Change font to links - narrow, bold, lowercase style */
+#menu li a {                
     color: #c7c7c7; 
     margin-left: 5px;
 }
 
 #menu li a:hover {
-    /* color: red;           Modify colour - check color wheel */
     color: #75b0d8;
 }
 
@@ -103,21 +104,14 @@ nav {
 }
 
 #cover-text {
-    /* background-color: red; */      /* Testing position and dimensions of element */
     color: #c7c7c7;
-
     position: absolute;
-
     width: 25%;
     height: 30%;
-
     top: 40%;
     left: 15%;
-
     padding: 0 10px;
-
     border-radius: 5px;
-    /* border: 3px double blue; */
 }
 
 #cover-text h2 {
@@ -126,8 +120,7 @@ nav {
 }
 
 #cover-text h2 span {
-    /* color: blue;        Test colour */
-    color: #75b0d8;         /* Preferred colour */
+    color: #75b0d8;        
 }
 
 #cover-text h3 {
@@ -137,6 +130,7 @@ nav {
 
 /* About section */
 
+/* Setting up the section dimensions, image and background color */
 #about {
     height: 60vh;
     background-color: lightblue;
@@ -145,9 +139,9 @@ nav {
     background-position: top right;
 }
 
+/* Cover text */
 #about div {
-    background-color: #273a58;     /* Testing position and dimension */
-    width: 40%;
+    background-color: #273a58;    
     position: relative;
     top: 10vh;
     left: 50px;
@@ -156,6 +150,7 @@ nav {
     border-radius: 5px;
 }
 
+/* Creating button with hover effect and font awsome icon */
 #about div span {
     border: 2px solid #46719c;
     padding: 2px 5px;
@@ -177,64 +172,53 @@ nav {
 
 /* Skills section */
 
+/* Position, dimension and background color */
 #skills {
     position: relative;
     height: 80vh;
     background-color: #3C4856;
 }
 
+/* Skills section title */
 #skills h2 {
     text-align: center;
     padding: 40px 0 30px 0;
 }
 
+/* Skills content wrapper size and position */
 #skills-content {
-    /* background-color: red;     Test colour */
     width: 80%;
     height: 70%;
-    /* padding: 10px; */
     position: absolute;
     left: 10%;
 }
 
+/* Individual skill wrapper dimension and position */
 .skills-container {
-    /* background-color: lightcoral; */
-    /* position: static; */
-    /* box-sizing: border-box; */
     margin: 10px;
-    /* padding: 20px 0; */
     line-height: 300%;
     height: 12%;
 }
 
+/* Skills name position and dimension */
 .skills-name {
     display: inline-block;
-    /* float: left; */
     width: 19%;
-    /* height: 100%; */
-    /* vertical-align: text-bottom; */
-    /* background-color: blue; */
 }
 
-/* .skills-name h3 {
-    vertical-align: middle;
-} */
-
+/* Set up individual skill look, position and position */
 .skills-level-container {
     display: inline-block;
-    /* position: relative; */
-    /* margin: 5px 0; */
-    /* float: right; */
     width: 80%;
     height: 20%;
-    /* background-color: orange;       test colour */
     background-color: #c7c7c7;
     border-radius: 10px;
 }
 
+/* Different skill levels */
 #skills-level-1 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;       
     height: 100%;
     width: 90%;
     border-radius: 10px;
@@ -242,7 +226,7 @@ nav {
 
 #skills-level-2 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;       
     height: 100%;
     width: 80%;
     border-radius: 10px;
@@ -250,7 +234,7 @@ nav {
 
 #skills-level-3 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;      
     height: 100%;
     width: 95%;
     border-radius: 10px;
@@ -258,7 +242,7 @@ nav {
 
 #skills-level-4 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;     
     height: 100%;
     width: 90%;
     border-radius: 10px;
@@ -266,7 +250,7 @@ nav {
 
 #skills-level-5 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;      
     height: 100%;
     width: 85%;
     border-radius: 10px;
@@ -274,7 +258,7 @@ nav {
 
 #skills-level-6 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;      
     height: 100%;
     width: 95%;
     border-radius: 10px;
@@ -282,20 +266,19 @@ nav {
 
 #skills-level-7 {
     position: relative;
-    background-color: #75B0D8;       /* test colour */
+    background-color: #75B0D8;      
     height: 100%;
     width: 70%;
     border-radius: 10px;
 }
 
-
+/* Set up skill level indicator */
 .skills-indicator {
     position: absolute;
     background-color: #75B0D8;
     border: 1px solid #75B0D8;
     width: 25px;
     height: 25px;
-    /* margin-right: 10px; */
     left: 97.5%;
     bottom: -7px;
     border-radius: 50%;
@@ -303,19 +286,21 @@ nav {
 
 /* Clients section */
 
+/* Position, dimension and background color */
 #clients {
     position: relative;
     height: 80vh;
     background-color: #212f49;
 }
 
+/* Clients section title */
 #clients h2 {
     text-align: center;
     padding: 40px 0 30px 0;
 }
 
+/* Clients content wrapper size and position */
 #clients-content {
-   /*  background-color: red;     Test colour */
    padding-top: 150px;
     width: 80%;
     height: 70%;
@@ -323,9 +308,8 @@ nav {
     left: 10%;
 }
 
+/* Set up individual client wrapper */
 #clients-content div {
-    /* position: absolute; */
-   /* background-color: blue;      Test colour */
     margin-left: 20px;
     width: 256px;
     height: 128px;
@@ -333,9 +317,8 @@ nav {
     box-sizing: border-box;
 }
 
+/* Add image to individual client */
 #amazon {
-    /* width: 50%; */
-    /* height: 100%; */
     background: url(../images/amazon-logo-gray.png) no-repeat center center;
     background-size: contain;
 }
@@ -348,26 +331,21 @@ nav {
 }
 
 #facebook {
-    /* width: 100%; */
-    /* height: 100%; */
     background: url(../images/facebook-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
 
 #google {
-    /* width: 100%; */
-    /* height: 100%; */
     background: url(../images/google-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
 
 #microsoft {
-    /* width: 100%; */
-    /* height: 100%; */
     background: url(../images/microsoft-logo-gray.png) no-repeat center center;
     background-size: cover;
 }
 
+/* Set up individual client hover effect */
 #amazon:hover {
     background: url(../images/amazon-logo.png) no-repeat center center;
     background-size: cover;
@@ -409,7 +387,6 @@ nav {
     height: 18px;
     width: 18px;
     text-align: center;
-    /* background-color: blue; */    /* Change to appropriate colour */
     background-color: rgba(117, 176, 216, 0.3);
     border-radius: 50%;
 }
@@ -432,7 +409,6 @@ nav {
     width: 40px;
     font-size: 200%;
     text-align: center;
-    /* background-color: blue;   */  /* Change to appropriate colour */
     background-color: rgba(117, 176, 216, 0.3);
     border-radius: 50%;
 }
@@ -442,16 +418,13 @@ nav {
 }
 
 .up-arrow a:hover {
-    /* color: rgba(117, 176, 216, 0.3); */
     color: rgb(23, 115, 234);
 }
 
 /* Copyright section */
 
 .copyright {
-    /* position: fixed; */            /* In case I want the copyright visible all the time */
-    /* bottom: 0%; */
-    background-color: black;        /* Modify colour - when page ready choose o colour that fits better */
+    background-color: black;       
     color: #c7c7c7;
     text-align: center;
     width: 100%;
@@ -464,41 +437,37 @@ nav {
 
 /* Contact page */
 
+/* Position, dimension and background color */
 .form {
     background-color: #46719c;
     position: relative;
     height: 95vh;
-    /* padding: 200px 30px; */
 }
 
+/* Form content wrapper size and position */
 .form-container {
-    /* background-color: #756ea8; */
     width: 80%;
     height: 40vh;
-    /* max-width: 400px; */
     position: absolute; 
     top: 25vh;
     left: 10%;
-    /* padding: 30px; */
 }
 
+/* Form section title */
 .form-container h2 {
-    /* padding: 10px 0; */
     height: 20%;
 }
 
+/* Wrapper for form's two elements */
 #form-container-wrapper {
-    /* display: inline-block; */
-    /* background-color: black; */
     width: 100%;
     height: 80%;
-    /* text-align: center; */
     box-sizing: border-box;
 }
 
+/* Form details */
 #form-details {
     float: left;
-    /* background-color: blue; */
     width: 30%;
     height: 100%;
 }
@@ -519,14 +488,13 @@ nav {
 }
 
 #form-details div p {
-    /* background-color: black;            test colour */
     display: inline;
     font-size: 75%;
 }
 
+/* Input form */
 #form-input {
     float: right;
-    /* background-color: red;           test colour */
     width: 70%;
     height: 100%;
 }
@@ -550,10 +518,6 @@ nav {
     border-radius: 2px;
 }
 
-/* .text-input #name {
-    margin: 2.5% 0 2.5% 2.5%;
-} */
-
 .message-input {
     width: 96%;
     height: 150px;
@@ -564,12 +528,14 @@ nav {
     box-sizing: border-box;
 }
 
+/* Newsletter checkbox */
 .news-letter {
     margin-left: 2%;
     margin-top: 2%;
     font-size: 75%;
 }
 
+/* Submit button */
 .message-button {
     margin-right: 2%;
     margin-top: 0.5%;
@@ -578,7 +544,6 @@ nav {
     width: 150px;
     border-radius: 25px;
     font-family: inherit;
-    /* font-weight: bold; */
     color: inherit;
     background-color: rgba(39, 58, 88, 0.8);
     border: 5px solid rgba(199, 199, 199, 0.8);
@@ -592,6 +557,7 @@ nav {
 
 /* Experience page */
 
+/* Position, dimension and background color */
 .experience {
     background-color: #46719c;
     position: relative;
@@ -599,23 +565,13 @@ nav {
     padding-top: 100px;
 }
 
+/* Experience section title */
 .experience h2 {
-    /* position: inherit;
-    top: 100px; */
     text-align: center;
     margin-bottom: 25px;
 }
 
-/* #briefcase {
-    /* background-color: black;        Test colour */
-    /* text-align: center;
-} */
-
-/* #briefcase i {
-    margin-top: 20px;
-    font-size: 200%;
-} */
-
+/* Set up timeline */
 .timeline {
     background-color: #273a58;
     height: 160vh;
@@ -625,16 +581,15 @@ nav {
     overflow: visible;
 }
 
+/* Font awsome as anchor element on timeline */
 .timeline i {
     position: absolute;
-    /* top: 20%; */
     left: -17.5px;
     color: #c7c7c7;
     font-size: 250%;
-    /* border: 1px solid #c7c7c7; */
-    /* margin: 0 auto; */
 }
 
+/* Position anchor element for individual jobs */
 #job-1 {
     top: 130px;
 }
@@ -655,8 +610,8 @@ nav {
     top: 1330px;
 }
 
+/* Job container */
 .job-container-right {
-    /* border: 1px solid black; */
     position: absolute;
     width: 500px;
     height: 300px;
@@ -689,7 +644,6 @@ nav {
 }
 
 .job-container-left {
-    /* border: 1px solid black; */
     position: absolute;
     width: 500px;
     height: 300px;
@@ -724,23 +678,10 @@ nav {
 
 #main-image {
     height: 100vh;
-    /* width: 100%; */
     background: url("../images/uc-main-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* #container {
-    position: absolute;
-    background-color: yellow;
-    height: 50%;
-    width: 40%;
-
-    padding: 10px;
-
-    top: 50px;
-    left: 20px;
-} */
 
 #under-construction-sign {
     position: relative;
@@ -753,13 +694,11 @@ nav {
     background-size: contain;
     background-color: yellow;
     border-radius: 20px;
-    /* padding: 0 10px; */
 }
 
 #link-home {
     text-align: center;
     font-size: xx-large;
-    /* vertical-align: middle; */
     position: absolute;
     float: right;
     height: 40px;
