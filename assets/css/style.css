@@ -108,8 +108,8 @@ nav {
     position: absolute;
     width: 25%;
     height: 30%;
-    top: 40%;
-    left: 15%;
+    top: 30%;
+    left: 10%;
     padding: 0 10px;
     border-radius: 5px;
 }
@@ -133,7 +133,6 @@ nav {
 /* Setting up the section dimensions, image and background color */
 #about {
     height: 500px;
-    background-color: lightblue;
     background: url(../images/about.png) #75b0d8 no-repeat;
     background-size: contain;
     background-position: top right;
@@ -144,7 +143,7 @@ nav {
     background-color: #273a58;    
     position: relative;
     width: 40%;
-    top: 10vh;
+    top: 175px;
     left: 50px;
     padding: 15px;
     border: 5px double #46719c;
@@ -289,7 +288,6 @@ nav {
 
 /* Position, dimension and background color */
 #clients {
-    position: relative;
     height: 450px;
     background-color: #212f49;
 }
@@ -302,7 +300,6 @@ nav {
 
 /* Clients content wrapper size and position */
 #clients-content {
-    position: relative;
     padding-top: 50px;
     width: 80%;
     height: 50%;
@@ -715,3 +712,64 @@ nav {
 #link-home a {
     color: #c7c7c7;
 }
+
+/* Media queries */
+
+/* For medium screens sizes up to 1200px */
+
+@media screen and (max-width: 1200px) {
+
+    /* Header */
+    header {
+        line-height: 60px;
+    }
+
+    #logo {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    
+    #logo a {
+        font-size: 80%;
+    }
+    
+    nav {
+        font-size: 100%;
+    }
+    
+    #menu {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    
+    #burger {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* About section */
+    #cover-text {
+        left: 5%;
+    }
+    
+    #cover-text h2 {
+        /* font-weight: 700; */
+        font-size: 420%;
+    }
+
+    #about div {
+        width: 50%;
+        font-size: 80%;
+    }
+
+    /* Skills section */
+    .skills-level-container {
+        height: 15%;
+    }
+
+    .skills-indicator {
+        width: 20px;
+        height: 20px;
+    }
+}
+
