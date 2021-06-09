@@ -132,7 +132,7 @@ nav {
 
 /* Setting up the section dimensions, image and background color */
 #about {
-    height: 60vh;
+    height: 500px;
     background-color: lightblue;
     background: url(../images/about.png) #75b0d8 no-repeat;
     background-size: contain;
@@ -143,6 +143,7 @@ nav {
 #about div {
     background-color: #273a58;    
     position: relative;
+    width: 40%;
     top: 10vh;
     left: 50px;
     padding: 15px;
@@ -175,7 +176,7 @@ nav {
 /* Position, dimension and background color */
 #skills {
     position: relative;
-    height: 80vh;
+    height: 680px;
     background-color: #3C4856;
 }
 
@@ -289,7 +290,7 @@ nav {
 /* Position, dimension and background color */
 #clients {
     position: relative;
-    height: 80vh;
+    height: 450px;
     background-color: #212f49;
 }
 
@@ -301,20 +302,22 @@ nav {
 
 /* Clients content wrapper size and position */
 #clients-content {
-   padding-top: 150px;
-    width: 80%;
-    height: 70%;
     position: relative;
-    left: 10%;
+    padding-top: 50px;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 /* Set up individual client wrapper */
 #clients-content div {
-    margin-left: 20px;
-    width: 256px;
-    height: 128px;
-    float: left;
-    box-sizing: border-box;
+    margin: 5px auto; 
+    width: 19%;
+    height: 50%;
+    display: inline-block;
 }
 
 /* Add image to individual client */
@@ -332,23 +335,23 @@ nav {
 
 #facebook {
     background: url(../images/facebook-logo-gray.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #google {
     background: url(../images/google-logo-gray.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #microsoft {
     background: url(../images/microsoft-logo-gray.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* Set up individual client hover effect */
 #amazon:hover {
     background: url(../images/amazon-logo.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #apple:hover {
@@ -358,17 +361,17 @@ nav {
 
 #facebook:hover {
     background: url(../images/facebook-logo.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #google:hover {
     background: url(../images/google-logo.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #microsoft:hover {
     background: url(../images/microsoft-logo.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* Footer */
@@ -428,7 +431,7 @@ nav {
     color: #c7c7c7;
     text-align: center;
     width: 100%;
-    height: 5vh;
+    height: 50px;
 }
 
 .copyright p {
@@ -561,7 +564,7 @@ nav {
 .experience {
     background-color: #46719c;
     position: relative;
-    height: 180vh;
+    height: 1685px;
     padding-top: 100px;
 }
 
@@ -574,7 +577,7 @@ nav {
 /* Set up timeline */
 .timeline {
     background-color: #273a58;
-    height: 160vh;
+    height: 1500px;
     width: 5px;
     margin: 50px auto;
     position: relative;
