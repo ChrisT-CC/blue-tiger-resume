@@ -474,7 +474,7 @@ nav {
 
 #form-details div {
     height: 20%;
-    padding: 10px 0 0;
+    margin: 10px 0;
 }
 
 #form-details div i {
@@ -489,7 +489,7 @@ nav {
 
 #form-details div p {
     display: inline;
-    font-size: 75%;
+    font-size: 90%;
 }
 
 /* Input form */
@@ -744,6 +744,59 @@ nav {
     .skills-indicator {
         width: 20px;
         height: 20px;
+    }
+
+    /* Experience page */
+
+    .job-container {
+        width: 350px;
+        height: 210px;
+        top: -90px;
+    }
+
+    .job-container div p {
+        font-size: 50%;
+    }
+
+    #position-left {
+        left: -395px;
+    }
+
+    #job-1 {
+        top: 90px;
+    }
+    
+    #job-2 {
+        top: 320px;
+    }
+    
+    #job-3 {
+        top: 550px;
+    }
+    
+    #job-4 {
+        top: 780px;
+    }
+    
+    #job-5 {
+        top: 1010px;
+    }
+
+    .timeline {
+        height: 1130px;
+    }
+
+    .experience {
+        height: 1300px;
+    }
+    
+    .job-container div img {
+        top: -20%;
+    }
+
+    /* Contact page */
+    #form-details div p {
+        font-size: 70%;
     }
 }
 
