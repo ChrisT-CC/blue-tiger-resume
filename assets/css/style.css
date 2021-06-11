@@ -1,9 +1,7 @@
 /* Importing Google fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Montserrat:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
 
 /* Reset margins, padding, borders, link hover and list style */
-
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +17,6 @@ ul {
 }
 
 /* Main body format */
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -28,7 +25,6 @@ body {
 }
 
 /* Heading and logo */
-
 header {
     position: absolute;     /* Position the heading to the top of the page */
     z-index: 1;             /* Position heading on top of hero-image */
@@ -95,7 +91,6 @@ nav {
 }
 
 /* Hero image and cover text*/
-
 #hero-image {
     position: relative;
     height: 100vh;
@@ -143,7 +138,7 @@ nav {
     background-color: #273a58;    
     position: relative;
     width: 40%;
-    top: 175px;
+    top: 200px;
     left: 50px;
     padding: 15px;
     border: 5px double #46719c;
@@ -374,7 +369,6 @@ nav {
 /* Footer */
 
 /* Social media icons */
-
 .social-icons {
     position: fixed;
     bottom: 75px;
@@ -400,7 +394,6 @@ nav {
 }
 
 /* Up arrow link */
-
 .up-arrow {
     position: fixed;
     bottom: 60px;
@@ -422,7 +415,6 @@ nav {
 }
 
 /* Copyright section */
-
 .copyright {
     background-color: black;       
     color: #c7c7c7;
@@ -620,7 +612,6 @@ nav {
     padding: 15px;
     margin: 0 30px;
     box-sizing: border-box;
-
 }
 
 .job-container div {
@@ -648,49 +639,9 @@ nav {
     left: -545px;
 }
 
-/* Under construction page */
-
-#main-image {
-    height: 100vh;
-    background: url("../images/uc-main-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#under-construction-sign {
-    position: relative;
-    top: 40px;
-    left: 40px;
-    height: 50%;
-    width: 35%;
-    background: url(../images/uc-sign.png) no-repeat;
-    background-position: center center;
-    background-size: contain;
-    background-color: yellow;
-    border-radius: 20px;
-}
-
-#link-home {
-    text-align: center;
-    font-size: xx-large;
-    position: absolute;
-    float: right;
-    height: 40px;
-    width: 100px;
-    background-color: blue;     /* Test colour - add more style */
-    top: 40px;
-    right: 40px;
-    border-radius: 25px;
-}
-
-#link-home a {
-    color: #c7c7c7;
-}
-
 /* Media queries */
 
 /* For medium screens sizes up to 1200px */
-
 @media screen and (max-width: 1200px) {
 
     /* Header */
@@ -727,7 +678,6 @@ nav {
     }
     
     #cover-text h2 {
-        /* font-weight: 700; */
         font-size: 420%;
     }
 
@@ -747,7 +697,6 @@ nav {
     }
 
     /* Experience page */
-
     .job-container {
         width: 350px;
         height: 210px;
@@ -799,4 +748,6 @@ nav {
         font-size: 70%;
     }
 }
+
+
 
