@@ -99,11 +99,12 @@ nav {
 }
 
 #cover-text {
+    background-color: rgba(39, 58, 88, 0.8);
     color: #c7c7c7;
     position: absolute;
-    width: 25%;
-    height: 30%;
-    top: 30%;
+    width: 325px;
+    height: 150px;
+    top: 45%;
     left: 10%;
     padding: 0 10px;
     border-radius: 5px;
@@ -675,6 +676,8 @@ nav {
     /* About section */
     #cover-text {
         left: 5%;
+        height: 115px;
+        width: 275px;
     }
     
     #cover-text h2 {
@@ -749,5 +752,103 @@ nav {
     }
 }
 
+/* For medium screen sizes from 865px wide and down */
+@media screen and (max-width: 865px) {
 
+    /* About section */
+    #about {
+        height: 425px;
+    }
+
+    #about div {
+        width: 70%;
+        font-size: 75%;
+    }
+
+    /* Skills section */
+    #skills-content {
+        height: 90%;
+    }
+
+    .skills-container {
+        margin: 0 10px;
+        line-height: 300%;
+        height: 12%;
+    }
+
+    .skills-level-container {
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+
+    .skills-indicator {
+        width: 12px;
+        height: 12px;
+        bottom: -3px;
+    }
+
+    /* Clients section */
+    #clients-content {
+        height: 70%;
+        padding: 0;
+    }
+
+    #clients-content div {
+        margin: 0 auto;
+        width: 40%;
+        height: 30%;
+    }
+
+    div#apple {
+        display: block;
+        height: 25%;
+    }
+
+    /* Experience page */
+    .experience h2 {
+        margin: 50px 0 0;
+    }
+
+    .timeline {
+        margin-left: 12%;
+        margin-top: 30px;
+        height: 1130px;
+    }
+
+    .timeline i {
+        font-size: 175%;
+        left: -12px;
+    }
+
+    .job-container {
+        width: 350px;
+        height: 210px;
+        top: -90px;
+        margin: 0;
+        padding: 15px 30px;
+    }
+    
+    .job-container div p {
+        font-size: 75%;
+    }
+
+    #position-left {
+        left: 15px;
+    }
+
+    /* Contact page */
+    #form-details {
+        width: 100%;
+        height: 225px;
+    }
+
+    #form-details div {
+        height: 55px;
+    }
+
+    #form-input {
+        width: 100%;
+    }
+}
 
