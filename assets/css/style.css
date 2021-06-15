@@ -80,9 +80,10 @@ nav {
 }
 
 #burger {
+    background-color: rgba(39, 58, 88, 0.8);
+    float: right;
     width: 75px;
     height: 75px;
-    vertical-align: bottom;
 }
 
 #burger img {
@@ -96,6 +97,7 @@ nav {
     height: 100vh;
     width: 100%;
     background: url("../images/blue-tiger-hero-image.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #cover-text {
@@ -104,7 +106,7 @@ nav {
     position: absolute;
     width: 325px;
     height: 150px;
-    top: 45%;
+    top: 50%;
     left: 10%;
     padding: 0 10px;
     border-radius: 5px;
@@ -650,6 +652,15 @@ nav {
         line-height: 60px;
     }
 
+    #burger {
+        width: 66px;
+        height: 66px;
+    }
+
+    nav {
+        line-height: 66px;
+    }
+
     #logo {
         margin-left: 20px;
         margin-right: 10px;
@@ -665,25 +676,21 @@ nav {
     
     #menu {
         margin-left: 15px;
-        margin-right: 0px;
-    }
-    
-    #burger {
-        width: 60px;
-        height: 60px;
+        margin-right: 15px;
     }
 
-    /* About section */
+    /* Main page cover text*/
     #cover-text {
-        left: 5%;
+        left: 10%;
         height: 115px;
-        width: 275px;
+        width: 280px;
     }
     
     #cover-text h2 {
         font-size: 420%;
     }
 
+    /* About section */
     #about div {
         width: 50%;
         font-size: 80%;
@@ -838,9 +845,18 @@ nav {
     }
 
     /* Contact page */
+    .form {
+        height: 980px;
+    }
+
+    .form-container {
+        top: 200px;
+    }
+
     #form-details {
         width: 100%;
         height: 225px;
+        margin-top: 30px;
     }
 
     #form-details div {
@@ -852,3 +868,166 @@ nav {
     }
 }
 
+/* Menu under 700px */
+@media screen and (max-width: 700px) {
+    nav {
+        clear: both;
+        /* font-size: 80%;
+        line-height: 40px; */
+    }
+}
+
+/* For small screen sizes from 450px wide and down */
+@media screen and (max-width: 450px) {
+
+    /* Header */
+    #logo {
+        margin-left: 15px;
+        margin-right: 5px;
+        font-size: 230%;
+        line-height: 53px;
+    }
+
+    #burger {
+        width: 61px;
+        height: 60px;
+    }
+
+    nav {
+        clear: both;
+        font-size: 80%;
+        line-height: 40px;
+        letter-spacing: 0;
+    }
+    
+    #menu {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* Main page cover text*/
+    #cover-text {
+        height: 70px;
+        width: 142px;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    h3 {
+        font-size: inherit;
+    }
+
+    #cover-text h2 {
+        font-size: 240%;
+    }
+
+    #cover-text h3 {
+        font-size: 60%;
+    }
+
+    /* About section */
+    #about {
+        height: 280px;
+    }
+
+    #about div {
+        font-size: 60%;
+        font-weight: 200;
+        top: 100px;
+        left: 30px;
+        width: 70%;
+        padding: 0 5px 10px;
+    }
+
+    /* Skills section */
+    h3 {
+        font-size: inherit;
+    }
+
+    .skills-level-container {
+        height: 5%;
+    }
+
+    .skills-indicator {
+        width: 6px;
+        height: 6px;
+        bottom: -2px;
+    }
+
+    /* Clients section */
+    #clients h2 {
+        padding: 40px 0 0;
+    }
+
+    #clients-content div {
+        display: block;
+        width: 56%;
+        height: 20%;
+    }
+
+    /* Footer up arrow */
+    .up-arrow {
+        height: 24px;
+        width: 24px;
+        font-size: 120%;
+    }
+
+    /* Experience page */
+    .experience {
+        height: 900px;
+    }
+
+    .timeline {
+        height: 745px;
+    }
+
+    .timeline {
+        margin-left: 15%;
+    }
+
+    .job-container {
+        width: 230px;
+        height: 140px;
+        top: -60px;
+    }
+
+    .job-container div p {
+        font-size: 40%;
+    }
+
+    #job-1 {
+        top: 60px;
+    }
+
+    #job-2 {
+        top: 210px;
+    }
+
+    #job-3 {
+        top: 360px;
+    }
+
+    #job-4 {
+        top: 510px;
+    }
+
+    #job-5 {
+        top: 660px;
+    }
+
+    /* Contact page */
+    .form {
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    #menu li {
+        display: block;
+        text-align: right;
+        width: 70px;
+        margin-right: 15px;
+    }
+}
