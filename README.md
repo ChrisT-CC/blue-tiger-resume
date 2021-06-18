@@ -1,46 +1,64 @@
 # Blue Tiger Resume
 
-![Mockup image](assets/images/blue-tiger-mockup.jpg)
+The "Blue Tiger resume" is a resume website for an imagined full stack software developer.
 
-The Blue Tiger Resume is a website shaped as a resume, for an imagined full stack software developer
+
+The purpose of this website is to create an on-line presence for a wannabe coder. No real info, based on random full stack software developer resume. The website is for recruiters, potential clients, peers and why not, assessors. 
+The look, brand name and colours come from the image I used on the main page.
+
+Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://christ-cc.github.io/blue-tiger-resume/)
+
+![Mockup image](assets/images/blue-tiger-mockup.jpg)
 
 ## Table of contents
 1. [UX](#UX)
+    - [User Stories](#User-stories)
+    - [Structure](#Structure)
+    - [Skeleton](#Skeleton)
+    - [Surface](#Surface)
 2. [Features](#Features)
-    1. [Existing Features](#existing-features) 
-        1. [Navigation menu](#Navigation-menu)
-        1. [The landing page](#The-landing-page)
-        3. [About section](#About-section)
-        4. [Skills section](#Skills-section)
-        5. [Clients section](#Clients-section)
-        6. [The footer](#The-footer)
+    - [Existing Features](#existing-features) 
+        - [Navigation menu](#Navigation-menu)
+        - [The landing page](#The-landing-page)
+        - [About section](#About-section)
+        - [Skills section](#Skills-section)
+        - [Clients section](#Clients-section)
+        - [The footer](#The-footer)
             - [Social media links](#Social-media-links)
             - [Up arrow](#Up-arrow)
             - [Copyright](#Copyright)
-        7. [Experience page](#Experience-page)
-        8. [Contact page](#Contact-page)
-    2. [Features left to implement](#features-left-to-implement)
+        - [Experience page](#Experience-page)
+        - [Contact page](#Contact-page)
+    - [Features left to implement](#features-left-to-implement)
 3. [Technologies Used](#Technologies-Used)
-3. [Testing](#Testing)
-4. [Deployment](#Deployment)
-5. [Credits](#Credits)
+4. [Testing](#Testing)
+5. [Deployment](#Deployment)
+6. [Credits](#Credits)
 
-
-Your Project's Name
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
 
 ## UX
-Use this section to provide insight into your UX process, focusing on **who** this website is for, **what** it is that they want to achieve and **how** your project is the best way to help them achieve these things.
+In this section you'll find elements of UX process.
+
+### User stories
 
 In particular, as part of this section we recommend that you provide a list of **User Stories**, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
+
 This section is also where you would share links to any **wireframes**, **mockups**, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
+### Structure
+
+### Skeleton
+
+### Surface
+- Colours
+- Language
+- Styling considerations
+
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In this section, you can find features I choose to implement and some left for a future development stage.
 
 ## Existing Feature
 ### - Navigation menu 
@@ -65,20 +83,25 @@ fhbndrtnysdrtynertymdertymermyertdydrtymd
     fhbndrtnysdrtynertymdertymermyertdydrtymd
 ### Contact page
     fhbndrtnysdrtynertymdertymermyertdydrtymd
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ## Features Left to Implement
-Another feature idea
+- Download resume
+- Projects page (so you don't necessarily have to check github)
+- Live social media links
+- Education page
+- Password protected access to website
+
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-* JQuery
-* The project uses JQuery to simplify DOM manipulation.
+1. [HTML](https://en.wikipedia.org/wiki/HTML) - Programming language providing content and structure of the website.
+2. [CSS](https://en.wikipedia.org/wiki/CSS) - Programming language providing styling of the website.
+3. [Font Awesome](https://fontawesome.com/) - Library used for icons, such as social links and heat chillis.
+4. [Google Fonts](https://fonts.google.com/) - Used to choose a font style for the website.
+5. [Compressjpeg](https://compressjpeg.com/) - for compressing image file sizes to maximise loading speed.
+6. [Balsamiq](https://balsamiq.com/) - Used for the creation of wireframes for visual design testing.
+7. [Am I Responsive?](http://ami.responsivedesign.is/) - to check responsiveness and formockups.
+8. [Gitpod](https://www.gitpod.io/) - IDE (Integrated Development Environment), for writing, editing and saving code.
+9. [GitHub](https://github.com/) - Remote hosting platform and code repository.
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -110,8 +133,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+<-- (The text for section Y was copied from the Wikipedia article Z)
+CI template
 ### Media
 The photos used in this site were obtained from ...
 ### Acknowledgements
-I received inspiration for this project from X
+- CI
+- Mentor
+- Russell
+
+<-- (I received inspiration for this project from X)
