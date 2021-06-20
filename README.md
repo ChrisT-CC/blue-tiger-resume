@@ -4,7 +4,9 @@ The "Blue Tiger resume" is a resume website for an imagined full stack software 
 
 
 The purpose of this website is to create an on-line presence for a wannabe coder. No real info, based on random full stack software developer resume. The website is for recruiters, potential clients, peers and why not, assessors. 
-The look, brand name and colours come from the image used on the main page.
+The look, brand name and colours come from the image used on the main page. 
+
+This website can be easily recreated for a real situation.
 
 Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://christ-cc.github.io/blue-tiger-resume/)
 
@@ -72,8 +74,10 @@ In this section wireframes were created. Initial simple, hand drawn wireframes w
 
 ### Surface
 In this section you'll find info on website's look and feel. 
+
+The look of the landing page was inspired from [this website](https://wpshopmart.com/html/demo/resume-template-1/index.html).
 #### Colours
-The look of the landing page was inspired from [this website](). The website was designed with anonymity in mind. While searching for an aproprite hero image, the tiger image was found. That image inspired the branding and colours for the project.
+ The website was designed with anonymity in mind. While searching for an aproprite hero image, the tiger image was found. That image inspired the branding and colours for the project.
 
 A shade of blue, predominant in the tiger's image background, was used  ([ColorZilla](https://www.colorzilla.com/)) as body background colour. Different shades of that blue were used throughout the project, depending on necessity. The blue shades used were obtained with [ColorSpace](https://mycolor.space/).
 
@@ -94,24 +98,52 @@ A descriptive language was used with a minimalistic text content. [Google Fonts]
 In this section, you can find implemented features as well as some features left for a future development stage.
 
 ## Existing Feature
-### - Navigation menu 
-###  -The landing page
-### About section
-### Skills section
-### Clients section
-### The footer
-   - #### Social media links
-   - #### Up arrow 
-   - #### Copyright
-### Experience page
-### Contact page
+### - Navigation bar
+Responsive and visible on all three pages. Contains brand logo and navigation links to all pages and sections of page. The content of each page and section is self-explanatory, so no active link feedback was used to preserve the color theme throughout.
 
+![Navigation menu](assets/readme/nav-bar.jpg)
+### -The landing page
+Contains a brand image, name and owners position. 
+### - About section
+Contains an image, a brief description and a link to contact page. The image used, continues the ideea of anonimity.
+
+![About section](assets/readme/about-section.jpg)
+### - Skills section
+Contains a list of skills, each with a level bar, with the appropriate percentage level. Text was used for the skill names instead of logos to help with SEO.
+
+![Skills section](assets/readme/skills-section.jpg)
+### - Clients section
+Displays logos for five former, imagined clients. The same text colour was used for consistency, with real logo colours on hover. This section is responsive. 
+
+![Clients section](assets/readme/clients-section.jpg)
+### - The footer
+Can be found on each page and it has three elements.
+   - #### Social media links
+   Discreet, always visible, [Font Awesome](https://fontawesome.com/) social media icons. They are floating at the bottom left corner of every page and section. Offers easy access to owner's details.
+
+   ![Social media icons](assets/readme/social-icons.jpg)
+   - #### Up arrow 
+   Discreet, always visible, [Font Awesome](https://fontawesome.com/) double chevron, helps navigate back to the top of the page.
+
+   ![Up arrow link](assets/readme/up-arrow.jpg)
+   - #### Copyright 
+This is a common section on most websites. It was set at the bottom of page on a black background colour. 
+### - Experience page
+Presents an easy overview of past jobs aranged on a timeline. Each job is shaped as a card with company logo, employment dates and position held with company. The job card is anchored to the timeline with a [Font Awesome](https://fontawesome.com/) briefcase icon. This section is responsive and opens in a different page.
+
+![Experience page](assets/readme/experience-page.jpg)
+### - Contact page
+This page shows contact details and an input form. The form offers the posibility to send a message back to the owner. [Font Awesome](https://fontawesome.com/) icons were used in details section. This section is responsive and opens in a different page.
+
+[Code Institute's](https://codeinstitute.net/) dump form was used to deal with form's data. 
+
+![Contact page](assets/readme/contact-page.jpg)
 ## Features Left to Implement
-- Download resume
-- Projects page (so you don't necessarily have to check github)
+- Download resume - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
+- Projects page - a useful feature for a real resume website, so the user doesn't have to navigate [GitHub](https://github.com/) repos. 
 - Live social media links
-- Education page
-- Password protected access to website
+- Education page - was not implemented because the section skills shows developers strenghts and more and more developers are self-taught. Useful feature for a developer with classic education background.
+- Password protected access to website - a form of control of who gets access to owners personal details. On a job application the owner would sent a one time password to the recruiter with a limited one hour access to the website. 
 
 
 ## Technologies Used
@@ -164,7 +196,7 @@ CI template
 ### Media
 The photos used in this site were obtained from ...
 ### Acknowledgements
-- CI
+- [Code Institute](https://codeinstitute.net/)
 - Mentor
 - Russell
 
