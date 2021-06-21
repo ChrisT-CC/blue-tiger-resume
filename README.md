@@ -139,11 +139,11 @@ This page shows contact details and an input form. The form offers the posibilit
 
 ![Contact page](assets/readme/contact-page.jpg)
 ## Features Left to Implement
-- Download resume - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
-- Projects page - a useful feature for a real resume website, so the user doesn't have to navigate [GitHub](https://github.com/) repos. 
-- Live social media links
-- Education page - was not implemented because the section skills shows developers strenghts and more and more developers are self-taught. Useful feature for a developer with classic education background.
-- Password protected access to website - a form of control of who gets access to owners personal details. On a job application the owner would sent a one time password to the recruiter with a limited one hour access to the website. 
+- **Download resume** - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
+- **Projects page** - a useful feature for a real resume website, so the user doesn't have to navigate [GitHub](https://github.com/) repos. 
+- **Live social media links**
+- **Education page** - was not implemented because the section skills shows developers strenghts and more and more developers are self-taught. Useful feature for a developer with classic education background.
+- **Password protected access** to website - a form of control of who gets access to owners personal details. On a job application the owner would sent a one time password to the recruiter with a limited one hour access to the website. 
 
 
 ## Technologies Used
@@ -157,8 +157,8 @@ This page shows contact details and an input form. The form offers the posibilit
 8. [Gitpod](https://www.gitpod.io/) - IDE (Integrated Development Environment), for writing, editing and saving code
 9. [GitHub](https://github.com/) - Code repository hosting platform
 10. [ColorZilla](https://www.colorzilla.com/) - Browser extension for sampling colours on a website
-11. [ColorSpace](https://mycolor.space/) - Colour palette generator
-12. [coolors](https://coolors.co/3c4856-212f49-273a58-46719c-75b0d8-f2f2f2-1773ea) - Colour palette generator
+11. [ColorSpace](https://mycolor.space/) - Colour palette generator, used choosing colours 
+12. [coolors](https://coolors.co/3c4856-212f49-273a58-46719c-75b0d8-f2f2f2-1773ea) - Colour palette generator, used for saving palette for readme
 13. [WebAIM](https://webaim.org/resources/contrastchecker/) - contrast checker
 
 ## Testing
@@ -180,24 +180,53 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This section describes the process of deploying the project to GitHub Pages.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+### Deploying to GitHub Pages
+1. Open a browser and navigate to [Github.com](https://github.com/)
+2. Log in to GitHub account
+3. Click on "Responsitories" or select "Your repositories" from profile menu at the top right corner
+4. Select "blue-tiger-resume"
+5. Go to "Settings" tab
+6. Scroll down until you find "Github pages" and press the link you find there, or just choose "pages" from the left sidebar
+7. Under "source" change "none" to  "master" branch and then press "save"
+8. Refresh the page (can take a few minutes) and then under "Github pages" you have the new URL for the live project
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+### Running the project in [Gitpod](https://www.gitpod.io/) 
+1. Open a browser and navigate to [Github.com](https://github.com/)
+2. Log in to GitHub account
+3. Click on "Responsitories" or select "Your repositories" from profile menu at the top right corner
+4. Select "blue-tiger-resume"
+5. Add "gitpod.io/#" before URL in address bar and press "enter"
+
+### Running the project locally
+1. Open a browser and navigate to [Github.com](https://github.com/)
+2. Log in to GitHub account
+3. Click on "Responsitories" or select "Your repositories" from profile menu at the top right corner
+4. Select "blue-tiger-resume"
+5. Locate and click on the "Code" button
+6. Copy the URL under "HTTPS"
+7. In your IDE of choice, create a new repository
+8. Type "git clone 'copied URL'" and press enter
 
 ## Credits
+### Design
+The look of the landing page was inspired from [this website](https://wpshopmart.com/html/demo/resume-template-1/index.html).
 ### Content
-<-- (The text for section Y was copied from the Wikipedia article Z)
-CI template
+Code Institute [readme template](https://github.com/Code-Institute-Solutions/readme-template) and [Love running readme](https://github.com/Code-Institute-Solutions/readme-template) were used to write this readme file.
 ### Media
-The photos used in this site were obtained from ...
+The photos used in this website were obtained from the websites below and were edited to better fit the project:
+- [Pixabay](https://pixabay.com/)
+    - [Blue tiger image](https://pixabay.com/get/g4bf97df2dea64f4fc1cea02179b1e40a68100b0632311e97e175062e25c4d9c457f25ec39d64263accee0ccb35340133.jpg)
+- [Rawpixel](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed)
+    - [About photo](https://www.rawpixel.com/?sort=shuffle&page=1&feed=creative-feed)
+- [Pngimg](https://pngimg.com/)
+    - [Amazon logo](http://pngimg.com/uploads/amazon/amazon_PNG13.png)
+    - [Apple logo](http://pngimg.com/uploads/apple_logo/apple_logo_PNG19668.png)
+    - [Google logo](http://pngimg.com/uploads/google/google_PNG19642.png)
+    - [Microsoft logo](http://pngimg.com/uploads/microsoft/microsoft_PNG20.png)
+- [Logos world](https://logos-world.net/)
+    - [Facebook logo](https://logos-world.net/facebook-logo/)
 ### Acknowledgements
-- [Code Institute](https://codeinstitute.net/)
-- Mentor
-- Russell
-
-<-- (I received inspiration for this project from X)
+- Thanks to my mentor for suggetions and time
+- Thanks to my family, friends and peers for suggestions, reviews and feedback
