@@ -21,7 +21,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background-color: #46719c;      /* Fallback colour if problems with images */
-    color: #c7c7c7;
+    color: #f2f2f2;
 }
 
 /* Heading and logo */
@@ -45,7 +45,7 @@ h1, h2 {
 }
 
 #logo a {
-    color: #c7c7c7;
+    color: #f2f2f2;
 }
 
 /* Navigation links */
@@ -71,7 +71,7 @@ nav {
 }
 
 #menu li a {                
-    color: #c7c7c7; 
+    color: #f2f2f2; 
     margin-left: 5px;
 }
 
@@ -102,7 +102,7 @@ nav {
 
 #cover-text {
     background-color: rgba(39, 58, 88, 0.8);
-    color: #c7c7c7;
+    color: #f2f2f2;
     position: absolute;
     width: 325px;
     height: 150px;
@@ -160,7 +160,7 @@ nav {
 }
 
 #about div span a {
-    color: #c7c7c7;
+    color: #f2f2f2;
 }
 
 #about div span i {
@@ -209,7 +209,7 @@ nav {
     display: inline-block;
     width: 80%;
     height: 20%;
-    background-color: #c7c7c7;
+    background-color: #f2f2f2;
     border-radius: 10px;
 }
 
@@ -388,7 +388,7 @@ nav {
 }
 
 .social-icons li a {
-    color: #c7c7c7;
+    color: #f2f2f2;
 }
 
 .social-icons li a:hover {
@@ -409,7 +409,7 @@ nav {
 }
 
 .up-arrow a{
-    color: #c7c7c7;
+    color: #f2f2f2;
 }
 
 .up-arrow a:hover {
@@ -419,7 +419,7 @@ nav {
 /* Copyright section */
 .copyright {
     background-color: black;       
-    color: #c7c7c7;
+    color: #f2f2f2;
     text-align: center;
     width: 100%;
     height: 50px;
@@ -579,7 +579,7 @@ nav {
 .timeline i {
     position: absolute;
     left: -17.5px;
-    color: #c7c7c7;
+    color: #f2f2f2;
     font-size: 250%;
 }
 
@@ -617,7 +617,7 @@ nav {
 }
 
 .job-container div {
-    background-color: #c7c7c7;
+    background-color: #f2f2f2;
     color: #273a58;
     width: 100%;
     height: 100%;
