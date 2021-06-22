@@ -156,7 +156,7 @@ nav {
 }
 
 #about div span:hover {
-    background-color: #47729d;
+    background-color: #46719c;
 }
 
 #about div span a {
@@ -274,7 +274,6 @@ nav {
 .skills-indicator {
     position: absolute;
     background-color: #75B0D8;
-    border: 1px solid #75B0D8;
     width: 25px;
     height: 25px;
     left: 97.5%;
