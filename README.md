@@ -10,7 +10,7 @@ This website can be easily recreated for a real situation.
 
 Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://christ-cc.github.io/blue-tiger-resume/)
 
-![Mockup image](assets/readme/blue-tiger-mockup.jpg)
+![Mockup image](assets/readme/images/blue-tiger-mockup.jpg)
 
 ## Table of contents
 1. [UX](#UX)
@@ -64,13 +64,13 @@ The website has a simple structure with 3 different pages and 3 sections on the 
     - Clients section presents a portfolio of past clients
 - Experience page contains a timeline of past jobs
 - Contact page gives owners details and the posibility of contact
-- [Site map](assets/readme/site-map.pdf)
+- [Site map](assets/readme/wireframes/site-map.pdf)
 
 ### Skeleton
 In this section wireframes were created. Initial simple, hand drawn wireframes were refined in [Balsamiq](https://balsamiq.com/) and presented below.
-- [Main page wireframes](assets/readme/main-page.pdf)
-- [Experience page wireframes](assets/readme/experience-page.pdf)
-- [Contact page wireframes](assets/readme/contact-page.pdf)
+- [Main page wireframes](assets/readme/wireframes/main-page.pdf)
+- [Experience page wireframes](assets/readme/wireframes/experience-page.pdf)
+- [Contact page wireframes](assets/readme/wireframes/contact-page.pdf)
 
 ### Surface
 In this section you'll find info on website's look and feel. 
@@ -89,7 +89,7 @@ For hovering over social media icons and up arrow link, a shade of blue was used
 
 The website's palette saved from [coolors](https://coolors.co/3c4856-212f49-273a58-46719c-75b0d8-f2f2f2-1773ea) can be seen bellow:
 
-![Palette](assets/readme/palette.png)
+![Palette](assets/readme/images/palette.png)
 
 #### Language
 A descriptive language was used with a minimalistic text content. [Google Fonts](https://fonts.google.com/) were used to create a clean look. Thick compact font for navigation menu to be visible on smaller screens. A strong font for logo and headers with a suggestet paired font for the rest of the text.
@@ -101,43 +101,43 @@ In this section, you can find implemented features as well as some features left
 ### - Navigation bar
 Responsive and visible on all three pages. Contains brand logo and navigation links to all pages and sections of page. The content of each page and section is self-explanatory, so no active link feedback was used to preserve the color theme throughout.
 
-![Navigation menu](assets/readme/nav-bar.jpg)
+![Navigation menu](assets/readme/images/nav-bar.jpg)
 ### -The landing page
 Contains a brand image, name and owners position. 
 ### - About section
 Contains an image, a brief description and a link to contact page. The image used, continues the ideea of anonimity.
 
-![About section](assets/readme/about-section.jpg)
+![About section](assets/readme/images/about-section.jpg)
 ### - Skills section
 Contains a list of skills, each with a level bar, with the appropriate percentage level. Text was used for the skill names instead of logos to help with SEO.
 
-![Skills section](assets/readme/skills-section.jpg)
+![Skills section](assets/readme/images/skills-section.jpg)
 ### - Clients section
 Displays logos for five former, imagined clients. The same text colour was used for consistency, with real logo colours on hover. This section is responsive. 
 
-![Clients section](assets/readme/clients-section.jpg)
+![Clients section](assets/readme/images/clients-section.jpg)
 ### - The footer
 Can be found on each page and it has three elements.
    - #### Social media links
    Discreet, always visible, [Font Awesome](https://fontawesome.com/) social media icons. They are floating at the bottom left corner of every page and section. Offers easy access to owner's details.
 
-   ![Social media icons](assets/readme/social-icons.jpg)
+   ![Social media icons](assets/readme/images/social-icons.jpg)
    - #### Up arrow 
    Discreet, always visible, [Font Awesome](https://fontawesome.com/) double chevron, helps navigate back to the top of the page.
 
-   ![Up arrow link](assets/readme/up-arrow.jpg)
+   ![Up arrow link](assets/readme/images/up-arrow.jpg)
    - #### Copyright 
 This is a common section on most websites. It was set at the bottom of page on a black background colour. 
 ### - Experience page
 Presents an easy overview of past jobs aranged on a timeline. Each job is shaped as a card with company logo, employment dates and position held with company. The job card is anchored to the timeline with a [Font Awesome](https://fontawesome.com/) briefcase icon. This section is responsive and opens in a different page.
 
-![Experience page](assets/readme/experience-page.jpg)
+![Experience page](assets/readme/images/experience-page.jpg)
 ### - Contact page
 This page shows contact details and an input form. The form offers the posibility to send a message back to the owner. [Font Awesome](https://fontawesome.com/) icons were used in details section. This section is responsive and opens in a different page.
 
 [Code Institute's](https://codeinstitute.net/) dump form was used to deal with form's data. 
 
-![Contact page](assets/readme/contact-page.jpg)
+![Contact page](assets/readme/images/contact-page.jpg)
 ## Features Left to Implement
 - **Download resume** - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
 - **Projects page** - a useful feature for a real resume website, so the user doesn't have to navigate [GitHub](https://github.com/) repos. 
