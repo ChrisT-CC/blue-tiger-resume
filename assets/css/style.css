@@ -583,44 +583,28 @@ nav {
 .timeline i {
     position: absolute;
     left: -17.5px;
-    color: #f2f2f2;
+    top: 130px;
     font-size: 250%;
 }
 
 /* Position anchor element for individual jobs */
-#job-1 {
-    top: 130px;
-}
-
-#job-2 {
-    top: 430px;
-}
-
-#job-3 {
-    top: 730px;
-}
-
-#job-4 {
-    top: 1030px;
-}
-
-#job-5 {
-    top: 1330px;
+.job-container {
+    position: relative;
+    height: 300px;
 }
 
 /* Job container */
-.job-container {
+.job-card {
     position: absolute;
     width: 500px;
     height: 300px;
-    left: 50%;
-    top: -130px;
     padding: 15px;
-    margin: 0 30px;
+    margin: 0 25px;
     box-sizing: border-box;
 }
 
-.job-container div {
+.job-card div {
+    position: relative;
     background-color: #f2f2f2;
     color: #273a58;
     width: 100%;
@@ -628,20 +612,29 @@ nav {
     border-radius: 5px;
     padding: 15px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-.job-container div img {
-    position: relative;
-    top: -50px;
+.job-card div img {
+    position: absolute;
+    top: -40px;
     height: 75%;
 }
 
-.job-container div p {
+.job-card div p {
+    margin-top: 175px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 75%;
+    font-size: 180%;
+    font-weight: 600;
 }
 
-#position-left {
+.job-card div span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 180%;
+    font-weight: 600;
+}
+
+.position-left {
     left: -545px;
 }
 
@@ -751,50 +744,42 @@ nav {
     }
 
     /* Experience page */
-    .job-container {
+    .job-card {
         width: 350px;
         height: 210px;
-        top: -90px;
     }
 
-    .job-container div p {
-        font-size: 50%;
+    .timeline i {
+        top: 90px;
     }
 
-    #position-left {
+    .job-card div p {
+        margin-top: 100px;
+        font-size: 140%;
+    }
+
+    .job-card div span {
+        font-size: 140%;
+    }
+
+    .position-left {
         left: -395px;
     }
 
-    #job-1 {
-        top: 90px;
-    }
-    
-    #job-2 {
-        top: 320px;
-    }
-    
-    #job-3 {
-        top: 550px;
-    }
-    
-    #job-4 {
-        top: 780px;
-    }
-    
-    #job-5 {
-        top: 1010px;
+    .job-container {
+        height: 210px;
     }
 
     .timeline {
-        height: 1130px;
+        height: 1050px;
     }
 
     .experience {
-        height: 1300px;
+        height: 1220px;
     }
     
-    .job-container div img {
-        top: -20%;
+    .job-card div img {
+        top: -25px;
     }
 
     /* Contact page */
@@ -864,7 +849,7 @@ nav {
     .timeline {
         margin-left: 12%;
         margin-top: 30px;
-        height: 1130px;
+        height: 1050px;
     }
 
     .timeline i {
@@ -872,20 +857,24 @@ nav {
         left: -12px;
     }
 
-    .job-container {
+    .job-card {
         width: 350px;
         height: 210px;
-        top: -90px;
         margin: 0;
         padding: 15px 30px;
     }
     
-    .job-container div p {
-        font-size: 75%;
+    .job-card div p {
+        font-size: 120%;
+        margin-top: 105px;
     }
 
-    #position-left {
-        left: 15px;
+    .job-card div span {
+        font-size: 120%;
+    }
+
+    .position-left {
+        left: 0px;
     }
 
     /* Contact page */
@@ -1020,50 +1009,56 @@ nav {
 
     /* Experience page */
     .experience {
-        height: 900px;
+        height: 850px;
+    }
+
+    .experience h2 {
+        margin: 25px 0 0;
     }
 
     .timeline {
-        height: 745px;
-    }
-
-    .timeline {
+        height: 700px;
         margin-left: 15%;
     }
 
-    .job-container {
+    .timeline i {
+        top: 55px;
+    }
+
+    .job-card {
         width: 230px;
         height: 140px;
-        top: -60px;
     }
 
-    .job-container div p {
-        font-size: 40%;
+    .job-card div {
+        padding: 8px;
     }
 
-    #job-1 {
-        top: 60px;
+    .job-card div img {
+        top: -10px;
+        height: 65%;
     }
 
-    #job-2 {
-        top: 210px;
+    .job-card div p {
+        font-size: 80%;
+        margin-top: 60px;
     }
 
-    #job-3 {
-        top: 360px;
+    .job-card div span {
+        font-size: 80%;
     }
 
-    #job-4 {
-        top: 510px;
-    }
-
-    #job-5 {
-        top: 660px;
+    .job-container {
+        height: 140px;
     }
 
     /* Contact page */
     .form {
         height: 850px;
+    }
+
+    .form-container {
+        top: 125px;
     }
 
     /* Submit page */
