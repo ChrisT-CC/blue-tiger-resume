@@ -645,6 +645,47 @@ nav {
     left: -545px;
 }
 
+/* Submit page */
+
+/* Feedback area */
+#feedback {
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+
+#feedback span {
+    padding-left: 150px;
+}
+
+/* Home button */
+.home-button {
+    margin: 50px auto;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-family: inherit;
+    background-color: rgba(39, 58, 88, 0.8);
+    border: 5px solid rgba(242, 242, 242, 0.8);
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: rgba(242, 242, 242, 0.8);
+    border: 5px solid rgba(39, 58, 88, 0.8);
+    color: #273a58;
+}
+
+.home-button a {
+    color: #f2f2f2;
+}
+
+.home-button:hover a {
+    color: #273a58;
+}
+
 /* Media queries */
 
 /* For medium screens sizes up to 1200px */
@@ -868,7 +909,14 @@ nav {
     #form-input {
         width: 100%;
     }
+
+    /* Submit page */
+    #feedback {
+        width: 100%;
+    }
 }
+
+
 
 /* Menu under 700px */
 @media screen and (max-width: 700px) {
@@ -1016,6 +1064,15 @@ nav {
     /* Contact page */
     .form {
         height: 850px;
+    }
+
+    /* Submit page */
+    #feedback h2 {
+        font-size: 230%;
+    }
+
+    #feedback span {
+        padding-left: 100px;
     }
 }
 
