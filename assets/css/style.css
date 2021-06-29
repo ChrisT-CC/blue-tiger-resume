@@ -449,7 +449,7 @@ nav {
 
 /* Form section title */
 .form-container h2 {
-    height: 20%;
+    height: 80px;
 }
 
 /* Wrapper for form's two elements */
@@ -477,7 +477,7 @@ nav {
     width: 40px;
     text-align: center;
     line-height: 40px;
-    border: 5px solid rgba(199, 199, 199, 0.8);
+    border: 5px solid rgba(242, 242, 242, 0.8);
     border-radius: 50%;
 }
 
@@ -500,6 +500,8 @@ nav {
     margin-left: 2%;
     margin-top: 2%;
     border-radius: 2px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
 .text-input-email {
@@ -510,6 +512,8 @@ nav {
     margin-top: 2%;
     float: right;
     border-radius: 2px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
 .message-input {
@@ -540,11 +544,11 @@ nav {
     font-family: inherit;
     color: inherit;
     background-color: rgba(39, 58, 88, 0.8);
-    border: 5px solid rgba(199, 199, 199, 0.8);
+    border: 5px solid rgba(242, 242, 242, 0.8);
 }
 
 .message-button:hover {
-    background-color: rgba(199, 199, 199, 0.8);
+    background-color: rgba(242, 242, 242, 0.8);
     border: 5px solid rgba(39, 58, 88, 0.8);
     color: #273a58;
 }
@@ -849,13 +853,12 @@ nav {
     }
 
     .form-container {
-        top: 200px;
+        top: 150px;
     }
 
     #form-details {
         width: 100%;
         height: 225px;
-        margin-top: 30px;
     }
 
     #form-details div {
@@ -871,8 +874,6 @@ nav {
 @media screen and (max-width: 700px) {
     nav {
         clear: both;
-        /* font-size: 80%;
-        line-height: 40px; */
     }
 }
 
@@ -908,10 +909,6 @@ nav {
     #cover-text {
         height: 70px;
         width: 142px;
-    }
-
-    h2 {
-        font-size: 200%;
     }
 
     h3 {
