@@ -679,6 +679,30 @@ nav {
     color: #273a58;
 }
 
+/* 404 error page */
+.error-section {
+    background-color: #46719c;
+    position: relative;
+    height: 95vh;
+}
+
+.container {
+    width: 80%;
+    height: 375px;
+    position: absolute; 
+    top: 200px;
+    left: 10%;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 960%;
+}
+
+.container h3 {
+    font-size: 280%;
+}
+
 /* Media queries */
 
 /* For medium screens sizes up to 1200px */
