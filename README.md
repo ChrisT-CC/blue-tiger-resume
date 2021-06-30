@@ -19,8 +19,8 @@ Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://chr
     - [Skeleton](#Skeleton)
     - [Surface](#Surface)
 2. [Features](#Features)
-    - [Existing Features](#existing-features) 
-        - [Navigation menu](#Navigation-menu)
+    - [Existing Features](#Existing-Features) 
+        - [Navigation bar](#Navigation-bar)
         - [The landing page](#The-landing-page)
         - [About section](#About-section)
         - [Skills section](#Skills-section)
@@ -31,6 +31,8 @@ Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://chr
             - [Copyright](#Copyright)
         - [Experience page](#Experience-page)
         - [Contact page](#Contact-page)
+        - [Submit page](#Submit-page)
+        - [404 error page](#404-error-page)
     - [Features left to implement](#features-left-to-implement)
 3. [Technologies Used](#Technologies-Used)
 4. [Testing](#Testing)
@@ -56,6 +58,7 @@ In this section you'll find elements of UX process.
 - Any user wants to be able to get in touch with the owner to be able to ask for a service, or just to leave a messege.
 - Recruiters want to be able to download a classic resume to use it in their hiring process.
 
+[Back to top](#Table-of-contents)
 ### Structure
 The website has a simple structure with 3 different pages and 3 sections on the main page. A minimalistic text content was used with emphasis on visual elements.
 - Main page contains a brand hero image and owner position
@@ -66,12 +69,14 @@ The website has a simple structure with 3 different pages and 3 sections on the 
 - Contact page gives owners details and the posibility of contact
 - [Site map](assets/readme/wireframes/site-map.pdf)
 
+[Back to top](#Table-of-contents)
 ### Skeleton
 In this section wireframes were created. Initial simple, hand drawn wireframes were refined in [Balsamiq](https://balsamiq.com/) and presented below.
 - [Main page wireframes](assets/readme/wireframes/main-page.pdf)
 - [Experience page wireframes](assets/readme/wireframes/experience-page.pdf)
 - [Contact page wireframes](assets/readme/wireframes/contact-page.pdf)
 
+[Back to top](#Table-of-contents)
 ### Surface
 In this section you'll find info on website's look and feel. 
 
@@ -94,28 +99,34 @@ The website's palette saved from [coolors](https://coolors.co/3c4856-212f49-273a
 #### Language
 A descriptive language was used with a minimalistic text content. [Google Fonts](https://fonts.google.com/) were used to create a clean look. Thick compact font for navigation menu to be visible on smaller screens. A strong font for logo and headers with a suggestet paired font for the rest of the text.
 
+[Back to top](#Table-of-contents)
 ## Features
 In this section, you can find implemented features as well as some features left for a future development stage.
 
-## Existing Feature
+## Existing Features
 ### - Navigation bar
 Responsive and visible on all three pages. Contains brand logo and navigation links to all pages and sections of page. The content of each page and section is self-explanatory, so no active link feedback was used to preserve the color theme throughout.
 
 ![Navigation menu](assets/readme/images/nav-bar.jpg)
 ### -The landing page
 Contains a brand image, name and owners position. 
+
+[Back to top](#Table-of-contents)
 ### - About section
 Contains an image, a brief description and a link to contact page. The image used, continues the ideea of anonimity.
 
 ![About section](assets/readme/images/about-section.jpg)
+[Back to top](#Table-of-contents)
 ### - Skills section
 Contains a list of skills, each with a level bar, with the appropriate percentage level. Text was used for the skill names instead of logos to help with SEO.
 
 ![Skills section](assets/readme/images/skills-section.jpg)
+[Back to top](#Table-of-contents)
 ### - Clients section
 Displays logos for five former, imagined clients. The same text colour was used for consistency, with real logo colours on hover. This section is responsive. 
 
 ![Clients section](assets/readme/images/clients-section.jpg)
+[Back to top](#Table-of-contents)
 ### - The footer
 Can be found on each page and it has three elements.
    - #### Social media links
@@ -128,16 +139,26 @@ Can be found on each page and it has three elements.
    ![Up arrow link](assets/readme/images/up-arrow.jpg)
    - #### Copyright 
 This is a common section on most websites. It was set at the bottom of page on a black background colour. 
+
+[Back to top](#Table-of-contents)
 ### - Experience page
 Presents an easy overview of past jobs aranged on a timeline. Each job is shaped as a card with company logo, employment dates and position held with company. The job card is anchored to the timeline with a [Font Awesome](https://fontawesome.com/) briefcase icon. This section is responsive and opens in a different page.
 
+
 ![Experience page](assets/readme/images/experience-page.jpg)
+[Back to top](#Table-of-contents)
 ### - Contact page
 This page shows contact details and an input form. The form offers the posibility to send a message back to the owner. [Font Awesome](https://fontawesome.com/) icons were used in details section. This section is responsive and opens in a different page.
-
-[Code Institute's](https://codeinstitute.net/) dump form was used to deal with form's data. 
-
 ![Contact page](assets/readme/images/contact-page.jpg)
+[Back to top](#Table-of-contents)
+### - Submit page
+Initially [Code Institute's](https://codeinstitute.net/) dump form was used  to deal with form's data, but it was removed after review, at mentor's suggestion. Instead a new page was created to give feedback after form input. 
+![Submit page](assets/readme/images/submit-page.jpg)
+[Back to top](#Table-of-contents)
+### - 404 error page
+A basic 404 error page was created, but it has it's limitations.
+![404 error page](assets/readme/images/404-error.jpg)
+[Back to top](#Table-of-contents)
 ## Features Left to Implement
 - **Download resume** - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
 - **Projects page** - a useful feature for a real resume website, so the user doesn't have to navigate [GitHub](https://github.com/) repos. 
@@ -145,7 +166,7 @@ This page shows contact details and an input form. The form offers the posibilit
 - **Education page** - was not implemented because the section skills shows developers strenghts and more and more developers are self-taught. Useful feature for a developer with classic education background.
 - **Password protected access** to website - a form of control of who gets access to owners personal details. On a job application the owner would sent a one time password to the recruiter with a limited one hour access to the website. 
 
-
+[Back to top](#Table-of-contents)
 ## Technologies Used
 1. [HTML](https://en.wikipedia.org/wiki/HTML) - Programming language used for website structure and content
 2. [CSS](https://en.wikipedia.org/wiki/CSS) - Programming language used for styling website
@@ -160,10 +181,13 @@ This page shows contact details and an input form. The form offers the posibilit
 11. [ColorSpace](https://mycolor.space/) - Colour palette generator, used choosing colours 
 12. [coolors](https://coolors.co/3c4856-212f49-273a58-46719c-75b0d8-f2f2f2-1773ea) - Colour palette generator, used for saving palette for readme
 13. [WebAIM](https://webaim.org/resources/contrastchecker/) - contrast checker
+14. [PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/) - Browser compatibility tester
 
+[Back to top](#Table-of-contents)
 ## Testing
 Testing can be found [here](assets/readme/testing/TESTING.md).
 
+[Back to top](#Table-of-contents)
 ## Deployment
 This section describes the process of deploying the project to GitHub Pages.
 
@@ -194,11 +218,14 @@ This section describes the process of deploying the project to GitHub Pages.
 7. In your IDE of choice, create a new repository
 8. Type "git clone 'copied URL'" and press enter
 
+[Back to top](#Table-of-contents)
 ## Credits
 ### Design
 The look of the landing page was inspired from [this website](https://wpshopmart.com/html/demo/resume-template-1/index.html).
 ### Content
-Code Institute [readme template](https://github.com/Code-Institute-Solutions/readme-template) and [Love running readme](https://github.com/Code-Institute-Solutions/readme-template) were used to write this readme file.
+Code Institute's [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to to create this project.
+
+Code Institute's [Love running readme template](https://github.com/Code-Institute-Solutions/readme-template) was used to write this readme file.
 ### Media
 The photos used in this website were obtained from the websites below and were edited to better fit the project:
 - [Pixabay](https://pixabay.com/)
@@ -212,6 +239,9 @@ The photos used in this website were obtained from the websites below and were e
     - [Microsoft logo](http://pngimg.com/uploads/microsoft/microsoft_PNG20.png)
 - [Logos world](https://logos-world.net/)
     - [Facebook logo](https://logos-world.net/facebook-logo/)
+
 ### Acknowledgements
 - Thanks to my mentor for suggetions and time
 - Thanks to my family, friends and peers for suggestions, reviews and feedback
+
+[Back to top](#Table-of-contents)
