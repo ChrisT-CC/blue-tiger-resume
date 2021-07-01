@@ -44,19 +44,18 @@ Visit live website: [https://christ-cc.github.io/blue-tiger-resume/](https://chr
 In this section you'll find elements of UX process.
 
 ### User stories
+#### As a website owner 
+- I want to establish a strong on-line presence, to find work.
+- I want my users to be able to use the website intuitivley and easy
+- I want to create and maintain a relationship with potential users
 
-- The developer wants to establish an on-line presence, to find work.
-- The owner wants an image and cover text on the main page to visualy explain what the website is about.
-- The owner wants floating social media icons always visible, to offer easy acces to further details.
-- Recruiters want to see owners name (or brand name) and position to find out what type of coder te owner is.
-- Recruiters want to see owner's skills to be able to evaluate coder's level.
-- Recruiters want to see owner's past and current jobs to evaluate coder's experience and availability.
-- Recruiters want to see past clients to find out if they deal with a genine coder with real clients.
-- Any user wants to see a simple to use and clean looking website to have easy access to information.
-- Any user wants an easy way to navigate the website to save time and avoid frustration.
-- Any user wants a responsive website to be able to use it on their device of choice.
-- Any user wants to be able to get in touch with the owner to be able to ask for a service, or just to leave a messege.
-- Recruiters want to be able to download a classic resume to use it in their hiring process.
+#### As a website user 
+- I want to find information about the owner to check his qualification and skills
+- I want to see a simple to use and clean looking website so information is easy to access
+- I want an easy way to navigate the website to save time and avoid frustration
+- I want the website to be accessible on any desktop, tablet and mobile devices, to be able to use it on my device of choice
+- I want to be able to get in touch with the owner to be able to ask for a service, or just to leave a message
+- I want to follow the owner on social media, so I can keep up with his latest news
 
 [Back to top](#Table-of-contents)
 ### Structure
@@ -116,16 +115,19 @@ Contains a brand image, name and owners position.
 Contains an image, a brief description and a link to contact page. The image used, continues the ideea of anonimity.
 
 ![About section](assets/readme/images/about-section.jpg)
+
 [Back to top](#Table-of-contents)
 ### - Skills section
 Contains a list of skills, each with a level bar, with the appropriate percentage level. Text was used for the skill names instead of logos to help with SEO.
 
 ![Skills section](assets/readme/images/skills-section.jpg)
+
 [Back to top](#Table-of-contents)
 ### - Clients section
 Displays logos for five former, imagined clients. The same text colour was used for consistency, with real logo colours on hover. This section is responsive. 
 
 ![Clients section](assets/readme/images/clients-section.jpg)
+
 [Back to top](#Table-of-contents)
 ### - The footer
 Can be found on each page and it has three elements.
@@ -146,18 +148,22 @@ Presents an easy overview of past jobs aranged on a timeline. Each job is shaped
 
 
 ![Experience page](assets/readme/images/experience-page.jpg)
+
 [Back to top](#Table-of-contents)
 ### - Contact page
 This page shows contact details and an input form. The form offers the posibility to send a message back to the owner. [Font Awesome](https://fontawesome.com/) icons were used in details section. This section is responsive and opens in a different page.
 ![Contact page](assets/readme/images/contact-page.jpg)
+
 [Back to top](#Table-of-contents)
 ### - Submit page
 Initially [Code Institute's](https://codeinstitute.net/) dump form was used  to deal with form's data, but it was removed after review, at mentor's suggestion. Instead a new page was created to give feedback after form input. 
 ![Submit page](assets/readme/images/submit-page.jpg)
+
 [Back to top](#Table-of-contents)
 ### - 404 error page
 A basic 404 error page was created, but it has it's limitations.
 ![404 error page](assets/readme/images/404-error.jpg)
+
 [Back to top](#Table-of-contents)
 ## Features Left to Implement
 - **Download resume** - A useful feature in a real resume website. It was not implemented in this project. To implement it, the "resume" word in the logo would be in a `<span>` tag, add a link inside the `<span>` tag with "download" attribute, add the resume file into the project. The styling would be: on hover change size to 75%, change background color to menu background colour, add [Font Awesome](https://fontawesome.com/) download icon. 
