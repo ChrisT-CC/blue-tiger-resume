@@ -188,6 +188,7 @@ A basic 404 error page was created, but it has it's limitations.
 12. [coolors](https://coolors.co/3c4856-212f49-273a58-46719c-75b0d8-f2f2f2-1773ea) - Colour palette generator, used for saving palette for readme
 13. [WebAIM](https://webaim.org/resources/contrastchecker/) - contrast checker
 14. [PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/) - Browser compatibility tester
+15. [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Chrome's built in web developer tools
 
 [Back to top](#Table-of-contents)
 ## Testing

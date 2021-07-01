@@ -56,52 +56,75 @@ The results can be found here: [index.html](lighthouse-index-desktop), [experien
 
 [Back to top](#Table-of-contents)
 ## Browser compatibility
-[PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/) was used to check browser compatibilit. The results were good, except for Internet Explorer. That however didn't cause any worries because this browser was replaced with Edge by Microsoft and it's no longer [supported](https://www.microsoft.com/en-gb/microsoft-365/windows/end-of-ie-support)
+[PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/) was used to check browser compatibility. The results were good, except for Internet Explorer. That however didn't cause any worries because this browser was replaced with Edge by Microsoft and it's no longer [supported](https://www.microsoft.com/en-gb/microsoft-365/windows/end-of-ie-support)
 See test results below:
 
 ![Browser compatibility](images/browser-compatibility.jpg)
 [Back to top](#Table-of-contents)
 ## Responsiveness
+Responsiveness was tested throughout development at each stage with [Chrome DevTools](https://developer.chrome.com/docs/devtools/). All screens from [Chrome DevTools](https://developer.chrome.com/docs/devtools/) were used. Additionally more devices screens were tested with [PowerMapper](https://www.powermapper.com/products/sortsite/checks/browser-compatibility/).
 
 [Back to top](#Table-of-contents)
 ## User stories
-- The developer wants to establish an on-line presence, to find work.
-- The owner wants an image and cover text on the main page to visualy explain what the website is about.
-- The owner wants floating social media icons always visible, to offer easy acces to further details.
-- Recruiters want to see owners name (or brand name) and position to find out what type of coder te owner is.
-- Recruiters want to see owner's skills to be able to evaluate coder's level.
-- Recruiters want to see owner's past and current jobs to evaluate coder's experience and availability.
-- Recruiters want to see past clients to find out if they deal with a genine coder with real clients.
-- Any user wants to see a simple to use and clean looking website to have easy access to information.
-- Any user wants an easy way to navigate the website to save time and avoid frustration.
-- Any user wants a responsive website to be able to use it on their device of choice.
-- Any user wants to be able to get in touch with the owner to be able to ask for a service, or just to leave a messege.
-- Recruiters want to be able to download a classic resume to use it in their hiring process.
+#### As a website owner 
+- I want to establish a strong on-line presence, to find work.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+    The main page contains a brand hero image and owner position to visualy explain what the website is about.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- I want my users to be able to use the website intuitivley and easy
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+    Each page has a navigation menu and is accessible at all times. All website is presented with minimalistic text content.
 
-1. Contact form:
-1. Go to the "Contact Us" page
-1. Try to submit the empty form and verify that an error message about the required fields appears
-1. Try to submit the form with an invalid email address and verify that a relevant error message appears
-1. Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- I want to create and maintain a relationship with potential users
+
+    The user has a few ways to contact the owner. There are social media links floating at the bottom left corner of every page. There is a contact form and a link to it from about section.
+
+#### As a website user 
+- I want to find information about the owner to check his qualification and skills
+
+    About section gives a short description about the owner. Further details can be found in skills and clients sections.
+
+- I want to see a simple to use and clean looking website so information is easy to access
+
+    All website is presented in a simple minimalistic look. Well spaced visual pleasing content. The same colour scheme with a good contrast was used throughout the website.
+
+- I want an easy way to navigate the website to save time and avoid frustration
+
+    The menu is the same on all pages so it's quickly recognizable. Additionally there's an up link on all pages, that is useful on long scrollable pages.
+
+- I want the website to be accessible on any desktop, tablet and mobile devices, to be able to use it on my device of choice
+
+    The site is responsive. It was tested on many devices and browsers.
+
+- I want to be able to get in touch with the owner to be able to ask for a service, or just to leave a message
+
+    There is a form in contact page that offers the posibility to send a message back to the owner. There's links to it from the menu or from about section. Additionally there's personal info on the same page or social media links.
+
+- I want to follow the owner on social media, so I can keep up with his latest news
+
+    Discreet social media links are floating at the bottom left corner of every page.
 
 [Back to top](#Table-of-contents)
 ## Manual testing
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used throughout development at each stage for testing. 
+
+Aditionally a comments/commented code/element colour method was used throughout development to make sense of CSS positioning, aligning and dimensioning as can be seen below. 
+
+![Notes-1](images/notes-1.png)
+![Notes-2](images/notes-2.png)
+![Notes-3](images/notes-3.png)
+![Notes-3](images/notes-4.png)
+![Test-colour-1](images/test-colour-1.png)
+![Test-colour-2](images/test-colour-2.png)
+![Test-colour-3](images/test-colour-3.png)
+![Test-colour-4](images/test-colour-4.png)
+![Test-colour-5](images/test-colour-5.png)
 
 [Back to top](#Table-of-contents)
-## Fixed bugs
 
-[Back to top](#Table-of-contents)
 ## Bugs left
 - Some errors pointed out by Lighthouse
 
 ![Bugs left](images/bugs-left.jpg)
-[Back to top](#Table-of-contents)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+[Back to top](#Table-of-contents)
